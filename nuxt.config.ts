@@ -2,6 +2,9 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: "/parkan-pro/",
+  },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/icon", "shadcn-nuxt", "@nuxt/image", "@nuxt/fonts"],
