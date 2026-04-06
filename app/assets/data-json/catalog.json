@@ -1,0 +1,69 @@
+{
+  "title": "Каталог",
+  "image": "/images/catalog.jpg",
+  "slider_items": [
+    {
+      "id": 1,
+      "title": "Ворота",
+      "description": "В'їзні системи для безпеки та комфорту вашого дому.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Фурнітура",
+      "description": "Комплектуючі для бездоганної роботи кожної деталі.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Автоматика",
+      "description": "Інтелектуальні рішення для дистанційного керування.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "Навіси",
+      "description": "Елегантний захист вашого авто та території від негоди.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "Калітки",
+      "description": "Функціональні та стильні рішення для зручного входу.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "Паркани та огорожі",
+      "description": "Міцні конструкції, що гармонійно доповнюють архітектуру.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "title": "Вуличні кухні",
+      "description": "Професійне обладнання для кулінарних шедеврів.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "title": "Декорації",
+      "description": "Ексклюзивні елементи для створення унікального стилю ділянки.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "title": "Паркани та огорожі",
+      "description": "Ексклюзивні елементи для створення унікального стилю ділянки.",
+      "image": "/images/about-us.jpg",
+      "link": "#"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #262626;
+  --color-secondary: #ffffff;
+  --color-background: #ededed;
+  --color-white-d3: #d3d3d3;
+  --color-gray-8b: #8b8b8b;
+  --color-gray-74: #747474;
+  --color-green: #418160;
+
+  --radius-small: 8px;
+
+  --blur-button-40: backdrop-filter: blur(40px);
+  --blur-button-20: backdrop-filter: blur(20px);
+  --shadow-btn-inset: inset 0px 2px 4px #ffffff66, inset 0px -2px 4px #00000033;
+
+  --text-mini: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-58s: 58px;
+  --text-90s: 90px;
+  --text-100s: 100px;
+  --text-150s: 150px;
+
+  --breakpoint-mobile: 576px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-medium: 1280px;
+  --breakpoint-desktop: 1440px;
+  --breakpoint-large: 1920px;
+}
+
+@layer {
+  .form-input {
+    @apply text-primary placeholder:text-primary/50 border-gray-74;
+  }
+  .container {
+    @apply px-4 mobile:px-10;
+  }
+}
+body,
+html {
+  height: 100%;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-family: "Inter", sans-serif;
+  position: relative;
+}
+#__nuxt {
+  height: 100%;
+}
+
+@keyframes collapsible-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-collapsible-content-height);
+  }
+}
+
+@keyframes collapsible-up {
+  from {
+    height: var(--radix-collapsible-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+.animate-collapsible-down {
+  animation: collapsible-down 0.2s ease-in-out;
+}
+
+.animate-collapsible-up {
+  animation: collapsible-up 0.2s ease-in-out;
+}
+@layer utilities {
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--reka-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--reka-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  [data-state="open"].accordion-content {
+    animation: accordion-down 0.25s ease-out;
+  }
+
+  [data-state="closed"].accordion-content {
+    animation: accordion-up 0.25s ease-out;
+  }
+}

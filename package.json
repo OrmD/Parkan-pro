@@ -1,0 +1,46 @@
+{
+  "name": "first-project",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "0.14.0",
+    "@nuxt/image": "2.0.0",
+    "@radix-icons/vue": "^1.0.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@vee-validate/zod": "^4.15.1",
+    "@vueuse/core": "^14.2.1",
+    "add": "^2.0.6",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-vue": "^8.6.0",
+    "iconify-icon": "^3.0.2",
+    "init": "^0.1.2",
+    "module": "^2.0.0",
+    "nuxi": "^3.34.0",
+    "nuxt": "^4.4.2",
+    "radix-vue": "^1.9.17",
+    "reka-ui": "^2.9.3",
+    "shadcn-nuxt": "^2.4.3",
+    "shadcn-vue": "^0.11.4",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.31",
+    "vue-router": "^5.0.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.101",
+    "@iconify-json/uil": "^1.2.3",
+    "@nuxt/icon": "^2.2.1",
+    "typescript": "^6.0.2"
+  }
+}
